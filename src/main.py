@@ -120,7 +120,7 @@ def main():
         com = ''.join(c for c in commands[: i + 1] if c not in 'pnPf')
         res = run_dc(com + 'f', inp)[::-1]
         print(res)
-    print('* RIGHT HAND SIDE IS TOP')
+    print('---> TOP OF STACK')
 
 if __name__ == '__main__':
     main()

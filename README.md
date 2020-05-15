@@ -6,6 +6,7 @@
 
 ```sh
 pip install .
+pip install --user .    # global
 ```
 
 ## usage
